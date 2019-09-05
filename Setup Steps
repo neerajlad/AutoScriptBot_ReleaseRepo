@@ -1,0 +1,8 @@
+Setup:
+
+- Download war file and MySql DB Script
+- Execute given db script into MySql Server
+- Place the war file into Tomcat webapps folder and start Tomcat server
+- Change your MySql server details at this location :: Tomcat server folder >> webapps >> AutoScriptBot >> WEB-INF >> Classes >> database.properties    
+- Restart Tomcat
+- Localhost URL: http://localhost:portNo/AutoScriptBot/Login.xhtml
