@@ -2,3 +2,23 @@ Bata version : Bata_v01
 
 - Download war file and DB script from this URL: https://drive.google.com/open?id=1cT4Iwmx_TszliXDZZBe1Vs6Cx7MjKjyt
 
+Beta vesion : Beta_v02
+
+- Download war file and DB script from this URL: https://drive.google.com/open?id=1Twc1LYQA_xyFxZBu-YzutpxWcCNlLCDV
+
+Change Log
+
+- Code Refactor
+- Added Global Variable setting page
+- Capture screenshot and store into AWS bucket
+- Fixed Memory capture graph
+- Added table for global variable 
+      * Run this before using Beta_v02
+      CREATE TABLE `AutoSetting` (
+        `AutoSettingId` int(11) NOT NULL AUTO_INCREMENT,
+        `AutoKey` varchar(100) NOT NULL,
+        `AutoValue` varchar(500) NOT NULL,
+        PRIMARY KEY (`AutoSettingId`)
+      ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
